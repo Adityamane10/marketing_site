@@ -1,43 +1,29 @@
-# VantageFlow — B2B Marketing Website
-
-A fully responsive, production-quality B2B marketing website for **VantageFlow**, an AI-powered business analytics platform. Built with Next.js, TypeScript, Tailwind CSS, and the App Router.
-
-- **4 pages**: Home, Product, Pricing, Contact
-- Static generation, semantic HTML, WCAG 2.2 AA accessibility
-- JSON-LD structured data (Organization, SoftwareApplication, FAQPage)
-- Server components, optimized fonts, no unnecessary third-party scripts
-
-## Live URL
-
-https://vantageflow.io (deploy pending)
-
-## Local Setup
-
-```bash
-npm install
-npm run dev       # localhost:3000
-npm run build
-npm run start
-npm run lint
-```
+# B2B Marketing Website & Performance Optimization
 
 ## Structure
 
 ```
-├── src/app/           # Pages + layout + API route
-├── src/components/    # Layout, sections, UI, forms, SEO
-├── src/content/       # All page content (editable by content team)
-├── src/config/        # Centralized metadata
-├── src/types/         # TypeScript interfaces
-├── src/lib/           # Utilities
-├── docs/              # Lighthouse, schema, accessibility evidence
-└── public/            # Static assets
+├── task-a/          # Next.js marketing site (VantageFlow)
+├── task-b/          # Performance diagnosis & rebuilt demo
+└── README.md
 ```
 
-## Deploy to Vercel
+## Task A — VantageFlow Marketing Site
+
+B2B SaaS website with 4 pages (Home, Product, Pricing, Contact).  
+Built with Next.js, TypeScript, Tailwind CSS.
 
 ```bash
-npx vercel --prod
+cd task-a
+npm install
+npm run dev       # localhost:3000
+npm run build
+npm run lint
 ```
 
-Or import the repo at https://vercel.com/new — framework auto-detects Next.js.
+Deploy: `cd task-a && npx vercel --prod`
+
+## Task B — Performance Demo
+
+Diagnosis of The Verge + rebuilt hero section.  
+Open `task-b/index.html` in a browser.
