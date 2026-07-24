@@ -1,0 +1,6 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#4F46E5"/>
+  <rect x="100" y="100" width="1000" height="430" rx="12" fill="white" fill-opacity="0.1"/>
+  <text x="600" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="72" font-weight="bold" fill="white">VantageFlow</text>
+  <text x="600" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="white" fill-opacity="0.8">Turn Data Into Decisions</text>
+</svg>
